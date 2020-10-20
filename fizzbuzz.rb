@@ -10,6 +10,18 @@ def fizzbuzz(num)
   z.join if z != []
 end
 
+#def fizzbuzz(num)
+#   fizz = num % 3 == 0
+#   buzz = num % 5 == 0
+#   if fizz && !buzz
+#     "Fizz"
+#   elsif !fizz && buzz
+#       "Buzz"
+#     elsif fizz && buzz
+#       "FizzBuzz"
+#     end
+#   end
+
 # def fizzbuzz(num)
 
 #   a = nil
