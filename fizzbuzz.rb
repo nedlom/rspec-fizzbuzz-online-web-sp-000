@@ -4,7 +4,8 @@ require 'pry'
 
 def fizzbuzz(num)
   x = {3 => "Fizz", 5 => "Buzz"}
-  ["Fizz", "Buzz"].select
+  x.select{|k,v| num % k == 0}
+  binding.pry
 end
 
 def fizzbuzz(num)
