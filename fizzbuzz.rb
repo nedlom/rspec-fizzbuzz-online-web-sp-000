@@ -3,6 +3,8 @@
 require 'pry'
 
 def fizzbuzz(num)
+  x = [3, "Fizz"]
+  y = [5, "Buzz"]
   x = {3 => "Fizz", 5 => "Buzz"}
   y = x.select{|k, v| num % k == 0}.values
   y.join if y!=""
