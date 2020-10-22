@@ -4,9 +4,7 @@ require 'pry'
 
 def fizzbuzz(num)
   x = {3 => "Fizz", 5 => "Buzz"}
-  x.select{|k, v| num % k == 0}.values
-  x = [nil, nil, nil, "Fizz", nil, "Buzz"]
-  x.select.with_index {|e, i| num % i == 0}.join
+  x.select{|k, v| num % k == 0}.values.join
 end
 
 # def fizzbuzz(num)
