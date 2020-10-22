@@ -3,7 +3,8 @@
 require 'pry'
 
 def fizzbuzz(num)
-  
+  if num % 5 == 0
+    
 end
 
 # def fizzbuzz(num)
