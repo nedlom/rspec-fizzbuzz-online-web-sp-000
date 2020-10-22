@@ -8,11 +8,9 @@ def fizzbuzz(num)
   y = x.collect do |i|
     if num % i[0] == 0
       i[1]
-    else
-      ""
     end
   end
-  y.join
+  binding.pry
     
       
     
