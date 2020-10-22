@@ -3,7 +3,6 @@
 require 'pry'
 
 def fizzbuzz(num)
-  x = [[num % 3 == 0, "Fizz"], [num % 5 == 0, "Buzz"]]
   ["Fizz", "Buzz"].select
 end
 
