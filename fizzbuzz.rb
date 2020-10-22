@@ -6,7 +6,7 @@ def fizzbuzz(num)
 
   x = [[3, "Fizz"], [5, "Buzz"]]
   y = x.collect{|i| i[1] if num % i[0] == 0}.compact
-    
+    binding.pry
 end
 
 # def fizzbuzz(num)
