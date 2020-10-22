@@ -3,9 +3,8 @@
 require 'pry'
 
 def fizzbuzz(num)
-  x = {3 => "Fizz", 5 => "Buzz"}
-  y = x.select{|k,v| num % k == 0}
-  binding.pry
+  x = [nil, nil, nil, "Fizz", nil, "Buzz"]
+  x.select.with_index {|e, i| num % i == 0}.join
 end
 
 # def fizzbuzz(num)
