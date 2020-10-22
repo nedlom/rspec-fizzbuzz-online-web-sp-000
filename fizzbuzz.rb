@@ -3,8 +3,8 @@
 require 'pry'
 
 def fizzbuzz(num)
-  x = [num % 3 == 0, "Fizz", num % 5 == 0, "Buzz"]
-  y = x[1] + x[]
+  x = [[num % 3 == 0, "Fizz"], [num % 5 == 0, "Buzz"]]
+  x.select
 end
 
 def fizzbuzz(num)
