@@ -5,14 +5,7 @@ require 'pry'
 def fizzbuzz(num)
 
   x = [[3, "Fizz"], [5, "Buzz"]]
-  y = x.collect do |i|
-    if num % i[0] == 0
-      i[1]
-    end
-  end
-  binding.pry
-    
-      
+  y = x.collect{|i| i[1] if num % i[0] == 0}
     
 end
 
