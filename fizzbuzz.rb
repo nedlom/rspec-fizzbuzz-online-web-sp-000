@@ -3,7 +3,7 @@
 require 'pry'
 
 def fizzbuzz(num)
-  x = [Fizz,'',"B", "u", "z", "z"]
+  x = [Fizz,'1',"B", "u", "z", "z"]
   x = [3, "Fizz"]
   y = [5, "Buzz"]
   x = {3 => "Fizz", 5 => "Buzz"}
