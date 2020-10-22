@@ -4,7 +4,17 @@ require 'pry'
 
 def fizzbuzz(num)
 
-  x = [3, "Fizz"]
+  x = [[3, "Fizz"], [5, "Buzz"]]
+  y = x.collect do |i|
+    if num % i[0] == 0
+      i[1]
+    else
+      ""
+    end
+  end
+  y.join
+    
+      
     
 end
 
