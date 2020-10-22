@@ -3,7 +3,7 @@
 require 'pry'
 
 def fizzbuzz(num)
-  
+  (1..num).select{|i| num % i == 0}
 end
 
 # def fizzbuzz(num)
