@@ -4,7 +4,7 @@ require 'pry'
 
 def fizzbuzz(num)
   x = {3 => "Fizz", 5 => "Buzz"}
-  x.select{|k, v| num % k == 0}.values.join
+  x.select{|k, v| num % k == 0}.values.join if != ""
 end
 
 # def fizzbuzz(num)
