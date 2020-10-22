@@ -3,12 +3,7 @@
 require 'pry'
 
 def fizzbuzz(num)
-  x = [Fizz,'1',"B", "u", "z", "z"]
-  x = [3, "Fizz"]
-  y = [5, "Buzz"]
-  x = {3 => "Fizz", 5 => "Buzz"}
-  y = x.select{|k, v| num % k == 0}.values
-  y.join if y!=""
+  
 end
 
 # def fizzbuzz(num)
