@@ -3,12 +3,17 @@
 require 'pry'
 
 def fizzbuzz(num)
-  x = ""
-  y = ""
-  x = "Fizz" if num % 3 == 0
-  y = "Buzz" if num % 5 == 0
-  x+y if x != "" || y != ""
+  x = [[3, "Fizz"], [5, "Buzz"]]
+  y = x.collect{|i| i[1] if num % i[0] == 0}.compact
+  y.join if y != []
 end
+
+# def fizzbuzz(num)
+#   x = ""
+#   x += "Fizz" if num % 3 == 0
+#   x += "Buzz" if num % 5 == 0
+#   x if x != "" 
+# end
 
 # def fizzbuzz(num)
 #   x = [3, 5]
