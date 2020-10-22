@@ -3,9 +3,7 @@
 require 'pry'
 
 def fizzbuzz(num)
-  [3,5].collect do |i|
-    if num % i == 0
-  end
+  
 end
 
 # def fizzbuzz(num)
