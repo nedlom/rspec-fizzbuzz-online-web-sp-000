@@ -3,19 +3,27 @@
 require 'pry'
 
 def fizzbuzz(num)
-  x = [3, 5]
-  if x.all?{|i| num % i == 0}
-    "FizzBuzz"
-  else
-    if x.any?{|i| num % i == 0}
-      if num % 3 == 0
-        "Fizz"
-      else
-        "Buzz"
-      end
-    end
-  end
+  x = ""
+  y = ""
+  x = "Fizz" if num % 3 == 0
+  y = "Buzz" if num % 5 == 0
+  x+y if x != "" || y != ""
 end
+
+# def fizzbuzz(num)
+#   x = [3, 5]
+#   if x.all?{|i| num % i == 0}
+#     "FizzBuzz"
+#   else
+#     if x.any?{|i| num % i == 0}
+#       if num % 3 == 0
+#         "Fizz"
+#       else
+#         "Buzz"
+#       end
+#     end
+#   end
+# end
 
 # def fizzbuzz(num)
 #   x = [num % 3 == 0, num % 5 == 0]
