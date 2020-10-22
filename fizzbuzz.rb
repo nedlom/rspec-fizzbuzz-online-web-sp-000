@@ -3,6 +3,7 @@
 require 'pry'
 
 def fizzbuzz(num)
+  x = {3 => "Fizz", 5 => "Buzz"}
   ["Fizz", "Buzz"].select
 end
 
