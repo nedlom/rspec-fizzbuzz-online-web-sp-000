@@ -3,11 +3,12 @@
 require 'pry'
 
 def fizzbuzz(num)
-  x = ""
-  y = ""
-  x = "Fizz" if num % 3 == 0
-  y = "Buzz" if num % 5 == 0
-  x+y if x != "" || y != ""
+  # x = ""
+  # y = ""
+  x = ["Fizz"] if num % 3 == 0
+  x << "Buzz" if num % 5 == 0
+  #x+y if x != "" || y != ""
+  
 end
 
 # def fizzbuzz(num)
